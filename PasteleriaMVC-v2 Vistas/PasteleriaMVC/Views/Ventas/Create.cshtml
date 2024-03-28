@@ -1,0 +1,95 @@
+﻿@model PasteleriaMVC.Models.Ventas
+
+
+
+
+@{
+    ViewBag.Title = "Ventas";
+    ViewBag.VentasA = "active";
+}
+
+
+<!-- Agregamos en menu de nav-->
+@Html.Partial("_Navegation")<!--nav lateral -->
+<!-- PAGE CONTAINER-->
+<div class="main-content">
+    <div class="page-container">
+        @Html.Partial("_Header")<!--nav header(top) -->
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+
+
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3 class="text-center title-2">Registrar Venta</h3>
+                    </div>
+                    <hr>
+                    <!------------      ------------>
+                    @using (Html.BeginForm("Create", "Productos", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            
+
+                            <div class="form-group">
+                                <label class="control-label col-md-12">Nombre del Cliente</label>
+                                <div class="col-md-12">
+                                    @Html.DropDownList("idCliente", null, htmlAttributes: new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.idCliente, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-12">Fecha de Venta</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.fecha, new { htmlAttributes = new { @class = "form-control",  @type="date", @id="fechaActual"} })
+                                    @Html.ValidationMessageFor(model => model.fecha, "", new { @class = "text-danger" })
+
+
+
+                                </div>
+                            </div>
+
+                            
+
+
+
+                            <div>
+                                <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
+                                    <i class="fa "></i>&nbsp;
+                                    <span id="payment-button-amount">Siguiente</span>
+                                    <span id="payment-button-sending" style="display:none;">Sending…</span>
+                                </button>
+                            </div>
+                        </div>
+                    }
+                    <!------------      ------------>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---->
+
+<script>
+    window.onload = function(){
+  var fecha = new Date(); //Fecha actual
+  var mes = fecha.getMonth()+1; //obteniendo mes
+  var dia = fecha.getDate(); //obteniendo dia
+  var ano = fecha.getFullYear(); //obteniendo año
+  if(dia<10)
+    dia='0'+dia; //agrega cero si el menor de 10
+  if(mes<10)
+    mes='0'+mes //agrega cero si el menor de 10
+  document.getElementById('fechaActual').value=ano+"-"+mes+"-"+dia;
+}
+</script>

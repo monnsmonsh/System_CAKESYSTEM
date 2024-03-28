@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Models" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cargos">
+    <Key>
+      <PropertyRef Name="idCargo" />
+    </Key>
+    <Property Name="idCargo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cargo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.CargosporEmpleado" FromRole="Cargos" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombres" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellidoP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellidoM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idEstado" Type="Int32" Nullable="false" />
+    <Property Name="idMunicipios" Type="Int32" Nullable="false" />
+    <Property Name="calle" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="colonia" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="celular" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="estados" Relationship="Self.FK__Clientes__idEsta__4F7CD00D" FromRole="Clientes" ToRole="estados" />
+    <NavigationProperty Name="municipios" Relationship="Self.FK__Clientes__idMuni__534D60F1" FromRole="Clientes" ToRole="municipios" />
+    <NavigationProperty Name="Encargos" Relationship="Self.FK__Encargos__idClie__778AC167" FromRole="Clientes" ToRole="Encargos" />
+    <NavigationProperty Name="Ventas" Relationship="Self.FK__Ventas__idClient__787EE5A0" FromRole="Clientes" ToRole="Ventas" />
+  </EntityType>
+  <EntityType Name="DetalleEncargos">
+    <Key>
+      <PropertyRef Name="idEncargo" />
+    </Key>
+    <Property Name="idEncargo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idProducto" Type="Int32" Nullable="false" />
+    <Property Name="cantidad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Encargos" Relationship="Self.FK__DetalleEn__idEnc__73BA3083" FromRole="DetalleEncargos" ToRole="Encargos" />
+    <NavigationProperty Name="Productos" Relationship="Self.FK__DetalleEn__idPro__74AE54BC" FromRole="DetalleEncargos" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="Encargos">
+    <Key>
+      <PropertyRef Name="idEncargo" />
+    </Key>
+    <Property Name="idEncargo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <Property Name="anticipo" Type="Double" />
+    <Property Name="fechaEncargo" Type="DateTime" Precision="0" />
+    <Property Name="fechaEntrega" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Clientes" Relationship="Self.FK__Encargos__idClie__778AC167" FromRole="Encargos" ToRole="Clientes" />
+    <NavigationProperty Name="DetalleEncargos" Relationship="Self.FK__DetalleEn__idEnc__73BA3083" FromRole="Encargos" ToRole="DetalleEncargos" />
+  </EntityType>
+  <EntityType Name="estados">
+    <Key>
+      <PropertyRef Name="idEstado" />
+    </Key>
+    <Property Name="idEstado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Clientes" Relationship="Self.FK__Clientes__idEsta__4F7CD00D" FromRole="estados" ToRole="Clientes" />
+    <NavigationProperty Name="municipios" Relationship="Self.FK__municipio__idEst__52593CB8" FromRole="estados" ToRole="municipios" />
+  </EntityType>
+  <EntityType Name="municipios">
+    <Key>
+      <PropertyRef Name="idMunicipios" />
+    </Key>
+    <Property Name="idMunicipios" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="clave" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sigla" Type="String" MaxLength="4" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idEstado" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Clientes" Relationship="Self.FK__Clientes__idMuni__534D60F1" FromRole="municipios" ToRole="Clientes" />
+    <NavigationProperty Name="estados" Relationship="Self.FK__municipio__idEst__52593CB8" FromRole="municipios" ToRole="estados" />
+  </EntityType>
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="idProducto" />
+    </Key>
+    <Property Name="idProducto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="foto" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idTam" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="precio" Type="Double" Nullable="false" />
+    <NavigationProperty Name="DetalleEncargos" Relationship="Self.FK__DetalleEn__idPro__74AE54BC" FromRole="Productos" ToRole="DetalleEncargos" />
+    <NavigationProperty Name="DetalleVentas" Relationship="Self.FK__DetalleVe__idPro__76969D2E" FromRole="Productos" ToRole="DetalleVentas" />
+    <NavigationProperty Name="Tam" Relationship="Self.FK__Productos__idTam__7B5B524B" FromRole="Productos" ToRole="Tam" />
+  </EntityType>
+  <EntityType Name="Tam">
+    <Key>
+      <PropertyRef Name="idTam" />
+    </Key>
+    <Property Name="idTam" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Productos" Relationship="Self.FK__Productos__idTam__7B5B524B" FromRole="Tam" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="TipoUsuario">
+    <Key>
+      <PropertyRef Name="idTipo" />
+    </Key>
+    <Property Name="idTipo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK__Usuario__idTipo__7A672E12" FromRole="TipoUsuario" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombres" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellidoP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellidoM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="pass" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idTipo" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TipoUsuario" Relationship="Self.FK__Usuario__idTipo__7A672E12" FromRole="Usuario" ToRole="TipoUsuario" />
+    <NavigationProperty Name="Ventas" Relationship="Self.FK__Ventas__idUsuari__797309D9" FromRole="Usuario" ToRole="Ventas" />
+    <NavigationProperty Name="Cargos" Relationship="Self.CargosporEmpleado" FromRole="Usuario" ToRole="Cargos" />
+  </EntityType>
+  <EntityType Name="Ventas">
+    <Key>
+      <PropertyRef Name="idVenta" />
+    </Key>
+    <Property Name="idVenta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <Property Name="idUsuario" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Clientes" Relationship="Self.FK__Ventas__idClient__787EE5A0" FromRole="Ventas" ToRole="Clientes" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK__Ventas__idUsuari__797309D9" FromRole="Ventas" ToRole="Usuario" />
+    <NavigationProperty Name="DetalleVentas" Relationship="Self.FK__DetalleVe__idVen__75A278F5" FromRole="Ventas" ToRole="DetalleVentas" />
+  </EntityType>
+  <EntityType Name="DetalleVentas">
+    <Key>
+      <PropertyRef Name="idVenta" />
+      <PropertyRef Name="idProducto" />
+      <PropertyRef Name="precio" />
+      <PropertyRef Name="cantidad" />
+    </Key>
+    <Property Name="idVenta" Type="Int32" Nullable="false" />
+    <Property Name="idProducto" Type="Int32" Nullable="false" />
+    <Property Name="precio" Type="Double" Nullable="false" />
+    <Property Name="cantidad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Productos" Relationship="Self.FK__DetalleVe__idPro__76969D2E" FromRole="DetalleVentas" ToRole="Productos" />
+    <NavigationProperty Name="Ventas" Relationship="Self.FK__DetalleVe__idVen__75A278F5" FromRole="DetalleVentas" ToRole="Ventas" />
+  </EntityType>
+  <Association Name="FK__Clientes__idEsta__4F7CD00D">
+    <End Role="estados" Type="Self.estados" Multiplicity="1" />
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="Clientes">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Clientes__idMuni__534D60F1">
+    <End Role="municipios" Type="Self.municipios" Multiplicity="1" />
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="municipios">
+        <PropertyRef Name="idMunicipios" />
+      </Principal>
+      <Dependent Role="Clientes">
+        <PropertyRef Name="idMunicipios" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Encargos__idClie__778AC167">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Encargos" Type="Self.Encargos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="Encargos">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ventas__idClient__787EE5A0">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Ventas" Type="Self.Ventas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="Ventas">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleEn__idEnc__73BA3083">
+    <End Role="Encargos" Type="Self.Encargos" Multiplicity="1" />
+    <End Role="DetalleEncargos" Type="Self.DetalleEncargos" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Encargos">
+        <PropertyRef Name="idEncargo" />
+      </Principal>
+      <Dependent Role="DetalleEncargos">
+        <PropertyRef Name="idEncargo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleEn__idPro__74AE54BC">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="DetalleEncargos" Type="Self.DetalleEncargos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="DetalleEncargos">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__municipio__idEst__52593CB8">
+    <End Role="estados" Type="Self.estados" Multiplicity="1" />
+    <End Role="municipios" Type="Self.municipios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="municipios">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleVe__idPro__76969D2E">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="DetalleVentas" Type="Self.DetalleVentas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="DetalleVentas">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Productos__idTam__7B5B524B">
+    <End Role="Tam" Type="Self.Tam" Multiplicity="1" />
+    <End Role="Productos" Type="Self.Productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tam">
+        <PropertyRef Name="idTam" />
+      </Principal>
+      <Dependent Role="Productos">
+        <PropertyRef Name="idTam" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Usuario__idTipo__7A672E12">
+    <End Role="TipoUsuario" Type="Self.TipoUsuario" Multiplicity="1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoUsuario">
+        <PropertyRef Name="idTipo" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="idTipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ventas__idUsuari__797309D9">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Ventas" Type="Self.Ventas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="Ventas">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleVe__idVen__75A278F5">
+    <End Role="Ventas" Type="Self.Ventas" Multiplicity="1" />
+    <End Role="DetalleVentas" Type="Self.DetalleVentas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ventas">
+        <PropertyRef Name="idVenta" />
+      </Principal>
+      <Dependent Role="DetalleVentas">
+        <PropertyRef Name="idVenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CargosporEmpleado">
+    <End Role="Cargos" Type="Self.Cargos" Multiplicity="*" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="DataBase" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cargos" EntityType="Self.Cargos" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+    <EntitySet Name="DetalleEncargos" EntityType="Self.DetalleEncargos" />
+    <EntitySet Name="Encargos" EntityType="Self.Encargos" />
+    <EntitySet Name="estados" EntityType="Self.estados" />
+    <EntitySet Name="municipios" EntityType="Self.municipios" />
+    <EntitySet Name="Productos" EntityType="Self.Productos" />
+    <EntitySet Name="Tam" EntityType="Self.Tam" />
+    <EntitySet Name="TipoUsuario" EntityType="Self.TipoUsuario" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+    <EntitySet Name="Ventas" EntityType="Self.Ventas" />
+    <EntitySet Name="DetalleVentas" EntityType="Self.DetalleVentas" />
+    <AssociationSet Name="FK__Clientes__idEsta__4F7CD00D" Association="Self.FK__Clientes__idEsta__4F7CD00D">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="Clientes" EntitySet="Clientes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Clientes__idMuni__534D60F1" Association="Self.FK__Clientes__idMuni__534D60F1">
+      <End Role="municipios" EntitySet="municipios" />
+      <End Role="Clientes" EntitySet="Clientes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Encargos__idClie__778AC167" Association="Self.FK__Encargos__idClie__778AC167">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Encargos" EntitySet="Encargos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ventas__idClient__787EE5A0" Association="Self.FK__Ventas__idClient__787EE5A0">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Ventas" EntitySet="Ventas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleEn__idEnc__73BA3083" Association="Self.FK__DetalleEn__idEnc__73BA3083">
+      <End Role="Encargos" EntitySet="Encargos" />
+      <End Role="DetalleEncargos" EntitySet="DetalleEncargos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleEn__idPro__74AE54BC" Association="Self.FK__DetalleEn__idPro__74AE54BC">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DetalleEncargos" EntitySet="DetalleEncargos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__municipio__idEst__52593CB8" Association="Self.FK__municipio__idEst__52593CB8">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="municipios" EntitySet="municipios" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleVe__idPro__76969D2E" Association="Self.FK__DetalleVe__idPro__76969D2E">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DetalleVentas" EntitySet="DetalleVentas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Productos__idTam__7B5B524B" Association="Self.FK__Productos__idTam__7B5B524B">
+      <End Role="Tam" EntitySet="Tam" />
+      <End Role="Productos" EntitySet="Productos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Usuario__idTipo__7A672E12" Association="Self.FK__Usuario__idTipo__7A672E12">
+      <End Role="TipoUsuario" EntitySet="TipoUsuario" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ventas__idUsuari__797309D9" Association="Self.FK__Ventas__idUsuari__797309D9">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Ventas" EntitySet="Ventas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleVe__idVen__75A278F5" Association="Self.FK__DetalleVe__idVen__75A278F5">
+      <End Role="Ventas" EntitySet="Ventas" />
+      <End Role="DetalleVentas" EntitySet="DetalleVentas" />
+    </AssociationSet>
+    <AssociationSet Name="CargosporEmpleado" Association="Self.CargosporEmpleado">
+      <End Role="Cargos" EntitySet="Cargos" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

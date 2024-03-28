@@ -1,0 +1,68 @@
+﻿@model PasteleriaMVC.Models.Usuario
+
+@{
+    Layout = null;
+}
+
+
+
+    <div>
+        <div class="card-title">
+            <h3 class="text-center title-2">Detalles del Producto</h3>
+        </div>
+        <hr>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.nombres)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.nombres)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.apellidoP)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.apellidoP)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.apellidoM)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.apellidoM)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.correo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.correo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.pass)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.pass)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.TipoUsuario.nombre)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TipoUsuario.nombre)
+            </dd>
+
+        </dl>
+    </div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idUsuario }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

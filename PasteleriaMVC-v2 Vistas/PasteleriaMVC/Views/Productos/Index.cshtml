@@ -1,0 +1,123 @@
+﻿@model IEnumerable<PasteleriaMVC.Models.Productos>
+
+@{
+    ViewBag.Title = "Productos";
+    ViewBag.ProductosA = "active";
+}
+
+
+
+
+<!-- modal large -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="largeModalLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-content">
+                    <!---->
+                    Cargando...
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end modal large -->
+<!-- Agregamos en menu de nav-->
+@Html.Partial("_Navegation")<!--nav lateral -->
+<!-- PAGE CONTAINER-->
+<div class="main-content">
+    <div class="page-container">
+        @Html.Partial("_Header")<!--nav header(top) -->
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="overview-wrap">
+                            <h2 class="title-1">@ViewBag.Title</h2>
+                            <a href="~/Productos/Create" class="au-btn au-btn-icon au-btn--blue"><i class="zmdi zmdi-plus"></i>Agregar Nuevo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- DATA TABLE-->
+                        <div class="table-responsive m-b-40">
+                            <table class="table table-borderless table-data3">
+                                <thead>
+                                    <tr>
+                                        <th>Foto</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <img width="100" src="@Url.Action("getImage/")@item.idProducto" />
+                                            </td>
+                                            
+                                            <td>
+
+                                                <div class="table-data__info">
+                                                    <h6>
+                                                        @Html.DisplayFor(modelItem => item.nombre)
+                                                    </h6>
+                                                    <span>
+                                                        <a href="#">@Html.DisplayFor(modelItem => item.descripcion)</a>
+                                                    </span>
+                                                </div>
+                                                
+                                                <br />
+                                                
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.precio)
+                                            </td>
+                                            <td>
+                                                <a href="~/Productos/Edit/@item.idProducto" class="btn btn-success btn-sm"><i class="fa fa-pencil-alt"></i></a>
+
+
+                                                <button href="#myModal" class="btnDelete btn btn-danger btn-sm" data-toggle="modal" data-id="@item.idProducto">
+                                                    <i class="fa fa-trash-alt"></i>
+                                                </button>
+
+                                                <button href="#myModal" class="btnDetails btn btn-primary btn-sm" data-toggle="modal" data-id="@item.idProducto">
+                                                    <i class="zmdi zmdi-more"></i>
+                                                </button>
+
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- END DATA TABLE-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---->
+
+
+@section scripts{
+    <script src="~/Scripts/Producto.js"></script>
+
+}

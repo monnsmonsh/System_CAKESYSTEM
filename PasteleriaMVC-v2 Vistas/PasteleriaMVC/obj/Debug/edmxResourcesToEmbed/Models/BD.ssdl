@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Models.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cargos">
+    <Key>
+      <PropertyRef Name="idCargo" />
+    </Key>
+    <Property Name="idCargo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cargo" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'BakeryMVC.dbo.CargosporEmpleado' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CargosporEmpleado">
+    <Key>
+      <PropertyRef Name="idCargo" />
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idCargo" Type="int" Nullable="false" />
+    <Property Name="idUsuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombres" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="apellidoP" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellidoM" Type="varchar" MaxLength="50" />
+    <Property Name="idEstado" Type="int" Nullable="false" />
+    <Property Name="idMunicipios" Type="int" Nullable="false" />
+    <Property Name="calle" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="colonia" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="celular" Type="char" MaxLength="10" />
+    <Property Name="telefono" Type="char" MaxLength="10" />
+    <Property Name="correo" Type="char" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DetalleEncargos">
+    <Key>
+      <PropertyRef Name="idEncargo" />
+    </Key>
+    <Property Name="idEncargo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idProducto" Type="int" Nullable="false" />
+    <Property Name="cantidad" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'BakeryMVC.dbo.DetalleVentas' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="DetalleVentas">
+    <Key>
+      <PropertyRef Name="idVenta" />
+      <PropertyRef Name="idProducto" />
+      <PropertyRef Name="precio" />
+      <PropertyRef Name="cantidad" />
+    </Key>
+    <Property Name="idVenta" Type="int" Nullable="false" />
+    <Property Name="idProducto" Type="int" Nullable="false" />
+    <Property Name="precio" Type="float" Nullable="false" />
+    <Property Name="cantidad" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Encargos">
+    <Key>
+      <PropertyRef Name="idEncargo" />
+    </Key>
+    <Property Name="idEncargo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="anticipo" Type="float" />
+    <Property Name="fechaEncargo" Type="date" />
+    <Property Name="fechaEntrega" Type="date" />
+  </EntityType>
+  <EntityType Name="estados">
+    <Key>
+      <PropertyRef Name="idEstado" />
+    </Key>
+    <Property Name="idEstado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="municipios">
+    <Key>
+      <PropertyRef Name="idMunicipios" />
+    </Key>
+    <Property Name="idMunicipios" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="clave" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="sigla" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="idEstado" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="idProducto" />
+    </Key>
+    <Property Name="idProducto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="foto" Type="varbinary(max)" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="idTam" Type="int" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="150" />
+    <Property Name="precio" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tam">
+    <Key>
+      <PropertyRef Name="idTam" />
+    </Key>
+    <Property Name="idTam" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="60" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TipoUsuario">
+    <Key>
+      <PropertyRef Name="idTipo" />
+    </Key>
+    <Property Name="idTipo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="60" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombres" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="apellidoP" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellidoM" Type="varchar" MaxLength="50" />
+    <Property Name="correo" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="pass" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="idTipo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ventas">
+    <Key>
+      <PropertyRef Name="idVenta" />
+    </Key>
+    <Property Name="idVenta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="idUsuario" Type="int" Nullable="false" />
+    <Property Name="fecha" Type="date" />
+  </EntityType>
+  <Association Name="FK__Cargospor__idCar__71D1E811">
+    <End Role="Cargos" Type="Self.Cargos" Multiplicity="1" />
+    <End Role="CargosporEmpleado" Type="Self.CargosporEmpleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cargos">
+        <PropertyRef Name="idCargo" />
+      </Principal>
+      <Dependent Role="CargosporEmpleado">
+        <PropertyRef Name="idCargo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Cargospor__idUsu__72C60C4A">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="CargosporEmpleado" Type="Self.CargosporEmpleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="CargosporEmpleado">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Clientes__idEsta__4F7CD00D">
+    <End Role="estados" Type="Self.estados" Multiplicity="1" />
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="Clientes">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Clientes__idMuni__534D60F1">
+    <End Role="municipios" Type="Self.municipios" Multiplicity="1" />
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="municipios">
+        <PropertyRef Name="idMunicipios" />
+      </Principal>
+      <Dependent Role="Clientes">
+        <PropertyRef Name="idMunicipios" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleEn__idEnc__73BA3083">
+    <End Role="Encargos" Type="Self.Encargos" Multiplicity="1" />
+    <End Role="DetalleEncargos" Type="Self.DetalleEncargos" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Encargos">
+        <PropertyRef Name="idEncargo" />
+      </Principal>
+      <Dependent Role="DetalleEncargos">
+        <PropertyRef Name="idEncargo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleEn__idPro__74AE54BC">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="DetalleEncargos" Type="Self.DetalleEncargos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="DetalleEncargos">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleVe__idPro__76969D2E">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="DetalleVentas" Type="Self.DetalleVentas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="DetalleVentas">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleVe__idVen__75A278F5">
+    <End Role="Ventas" Type="Self.Ventas" Multiplicity="1" />
+    <End Role="DetalleVentas" Type="Self.DetalleVentas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ventas">
+        <PropertyRef Name="idVenta" />
+      </Principal>
+      <Dependent Role="DetalleVentas">
+        <PropertyRef Name="idVenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Encargos__idClie__778AC167">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Encargos" Type="Self.Encargos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="Encargos">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__municipio__idEst__52593CB8">
+    <End Role="estados" Type="Self.estados" Multiplicity="1" />
+    <End Role="municipios" Type="Self.municipios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="municipios">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Productos__idTam__7B5B524B">
+    <End Role="Tam" Type="Self.Tam" Multiplicity="1" />
+    <End Role="Productos" Type="Self.Productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tam">
+        <PropertyRef Name="idTam" />
+      </Principal>
+      <Dependent Role="Productos">
+        <PropertyRef Name="idTam" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Usuario__idTipo__7A672E12">
+    <End Role="TipoUsuario" Type="Self.TipoUsuario" Multiplicity="1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoUsuario">
+        <PropertyRef Name="idTipo" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="idTipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ventas__idClient__787EE5A0">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Ventas" Type="Self.Ventas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="Ventas">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ventas__idUsuari__797309D9">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Ventas" Type="Self.Ventas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="Ventas">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelsStoreContainer">
+    <EntitySet Name="Cargos" EntityType="Self.Cargos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetalleEncargos" EntityType="Self.DetalleEncargos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Encargos" EntityType="Self.Encargos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="estados" EntityType="Self.estados" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="municipios" EntityType="Self.municipios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Productos" EntityType="Self.Productos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tam" EntityType="Self.Tam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoUsuario" EntityType="Self.TipoUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ventas" EntityType="Self.Ventas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CargosporEmpleado" EntityType="Self.CargosporEmpleado" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [CargosporEmpleado].[idCargo] AS [idCargo], 
+    [CargosporEmpleado].[idUsuario] AS [idUsuario]
+    FROM [dbo].[CargosporEmpleado] AS [CargosporEmpleado]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="DetalleVentas" EntityType="Self.DetalleVentas" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [DetalleVentas].[idVenta] AS [idVenta], 
+    [DetalleVentas].[idProducto] AS [idProducto], 
+    [DetalleVentas].[precio] AS [precio], 
+    [DetalleVentas].[cantidad] AS [cantidad]
+    FROM [dbo].[DetalleVentas] AS [DetalleVentas]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Cargospor__idCar__71D1E811" Association="Self.FK__Cargospor__idCar__71D1E811">
+      <End Role="Cargos" EntitySet="Cargos" />
+      <End Role="CargosporEmpleado" EntitySet="CargosporEmpleado" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Cargospor__idUsu__72C60C4A" Association="Self.FK__Cargospor__idUsu__72C60C4A">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="CargosporEmpleado" EntitySet="CargosporEmpleado" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Clientes__idEsta__4F7CD00D" Association="Self.FK__Clientes__idEsta__4F7CD00D">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="Clientes" EntitySet="Clientes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Clientes__idMuni__534D60F1" Association="Self.FK__Clientes__idMuni__534D60F1">
+      <End Role="municipios" EntitySet="municipios" />
+      <End Role="Clientes" EntitySet="Clientes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleEn__idEnc__73BA3083" Association="Self.FK__DetalleEn__idEnc__73BA3083">
+      <End Role="Encargos" EntitySet="Encargos" />
+      <End Role="DetalleEncargos" EntitySet="DetalleEncargos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleEn__idPro__74AE54BC" Association="Self.FK__DetalleEn__idPro__74AE54BC">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DetalleEncargos" EntitySet="DetalleEncargos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleVe__idPro__76969D2E" Association="Self.FK__DetalleVe__idPro__76969D2E">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DetalleVentas" EntitySet="DetalleVentas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleVe__idVen__75A278F5" Association="Self.FK__DetalleVe__idVen__75A278F5">
+      <End Role="Ventas" EntitySet="Ventas" />
+      <End Role="DetalleVentas" EntitySet="DetalleVentas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Encargos__idClie__778AC167" Association="Self.FK__Encargos__idClie__778AC167">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Encargos" EntitySet="Encargos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__municipio__idEst__52593CB8" Association="Self.FK__municipio__idEst__52593CB8">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="municipios" EntitySet="municipios" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Productos__idTam__7B5B524B" Association="Self.FK__Productos__idTam__7B5B524B">
+      <End Role="Tam" EntitySet="Tam" />
+      <End Role="Productos" EntitySet="Productos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Usuario__idTipo__7A672E12" Association="Self.FK__Usuario__idTipo__7A672E12">
+      <End Role="TipoUsuario" EntitySet="TipoUsuario" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ventas__idClient__787EE5A0" Association="Self.FK__Ventas__idClient__787EE5A0">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Ventas" EntitySet="Ventas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ventas__idUsuari__797309D9" Association="Self.FK__Ventas__idUsuari__797309D9">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Ventas" EntitySet="Ventas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

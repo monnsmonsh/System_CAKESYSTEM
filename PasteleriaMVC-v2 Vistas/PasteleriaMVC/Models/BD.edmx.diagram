@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8071ace192584d16b647616ec4b2bc5b" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="Models.Cargos" Width="1.5" PointX="4.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Clientes" Width="1.5" PointX="4.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.DetalleEncargos" Width="1.5" PointX="8.875" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Encargos" Width="1.5" PointX="6.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.estados" Width="1.5" PointX="2.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.municipios" Width="1.5" PointX="2.375" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Productos" Width="1.5" PointX="10.875" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tam" Width="1.5" PointX="14.625" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.TipoUsuario" Width="1.5" PointX="6.625" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Usuario" Width="1.5" PointX="8.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Ventas" Width="1.5" PointX="10.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.DetalleVentas" Width="1.5" PointX="12.75" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="Models.FK__Clientes__idEsta__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Clientes__idMuni__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Encargos__idClie__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Ventas__idClient__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__DetalleEn__idEnc__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__DetalleEn__idPro__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__municipio__idEst__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__DetalleVe__idPro__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Productos__idTam__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Usuario__idTipo__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Ventas__idUsuari__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__DetalleVe__idVen__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.CargosporEmpleado" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

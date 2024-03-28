@@ -1,0 +1,137 @@
+﻿@model PasteleriaMVC.Models.Usuario
+
+
+
+
+@{
+    ViewBag.Title = "Usuario";
+    ViewBag.UsuarioseA = "active";
+}
+
+<!-- Agregamos en menu de nav-->
+@Html.Partial("_Navegation")<!--nav lateral -->
+<!-- PAGE CONTAINER-->
+<div class="main-content">
+    <div class="page-container">
+        @Html.Partial("_Header")<!--nav header(top) -->
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+
+
+
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3 class="text-center title-2">Editar Usuario</h3>
+                    </div>
+                    <hr>
+                    <!------------      ------------>
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            <!------------      ------------>
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            @Html.HiddenFor(model => model.idUsuario)
+                            <!------------      ------------>
+                            <div class="form-group">
+                                <label class="control-label mb-2">Nombre</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.nombres, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.nombres, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="control-label mb-2">Apellido Paterno</label>
+                                        <div class="col-md-12">
+                                            @Html.EditorFor(model => model.apellidoP, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.apellidoP, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="control-label mb-2">Apellido Materno</label>
+                                        <div class="col-md-12">
+                                            @Html.EditorFor(model => model.apellidoM, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.apellidoM, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="control-label mb-2">e-mail</label>
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.correo, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.correo, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="control-label mb-2">Contraseña</label>
+                                        <div class="col-md-12">
+                                            @Html.EditorFor(model => model.pass, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+                                            @Html.ValidationMessageFor(model => model.pass, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="control-label mb-2">Rol</label>
+                                        <div class="col-md-12">
+                                            @Html.DropDownList("idTipo", null, htmlAttributes: new { @class = "form-control" })
+                                            @Html.ValidationMessageFor(model => model.idTipo, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <button id="btnSubmit" type="submit" class="btn btn-lg btn-info btn-block">
+                                    <i class="fa fa-lock fa-lg"></i>&nbsp;
+                                    <span id="payment-button-amount">Guardar</span>
+                                    <span id="payment-button-sending" style="display:none;">Sending…</span>
+                                </button>
+                            </div>
+
+
+
+                        </div>
+
+                        <!------------      ------------>
+                    }
+                    <!------------      ------------>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---->
+
+
+
+
+
+
+
+
+
+
+
+
+
+

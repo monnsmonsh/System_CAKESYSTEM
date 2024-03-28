@@ -1,0 +1,530 @@
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\PasteleriaMVC.dll.config
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\csc.exe
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\csc.exe.config
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\csc.rsp
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\csi.exe
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\csi.exe.config
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\csi.rsp
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.AppContext.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Console.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\vbc.exe
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\vbc.exe.config
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\vbc.rsp
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\Antlr3.Runtime.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\Newtonsoft.Json.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.Helpers.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.Mvc.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.Optimization.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.Razor.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.WebPages.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\WebGrease.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.Helpers.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.Mvc.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.Optimization.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.Razor.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.WebPages.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\Newtonsoft.Json.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\obj\Debug\PasteleriaMVC.csprojAssemblyReference.cache
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\obj\Debug\PasteleriaMVC.csproj.CopyComplete
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\obj\Debug\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC\PasteleriaMVC\obj\Debug\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.dll.config
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.exe
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.exe.config
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.rsp
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.exe
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.exe.config
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.rsp
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.AppContext.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Console.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.exe
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.exe.config
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.rsp
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\Antlr3.Runtime.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\Newtonsoft.Json.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Helpers.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Mvc.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Optimization.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Razor.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\WebGrease.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Helpers.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Mvc.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Optimization.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Razor.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\Newtonsoft.Json.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.csprojAssemblyReference.cache
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.csproj.CopyComplete
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\MVC5 asp.net\New Proyect Base MVC5\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.dll.config
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.exe
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.exe.config
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.rsp
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.exe
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.exe.config
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.rsp
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.AppContext.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Console.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.exe
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.exe.config
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.rsp
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\Antlr3.Runtime.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\Newtonsoft.Json.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Helpers.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Mvc.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Optimization.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Razor.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\WebGrease.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Helpers.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Mvc.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Optimization.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Razor.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\Newtonsoft.Json.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.csprojAssemblyReference.cache
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.csproj.CopyComplete
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.dll.config
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.exe
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.rsp
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.exe
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.rsp
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.AppContext.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Console.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.exe
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.rsp
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\Antlr3.Runtime.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\Newtonsoft.Json.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Helpers.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Mvc.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Optimization.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Razor.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\WebGrease.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Helpers.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Mvc.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Optimization.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Razor.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\Newtonsoft.Json.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.csprojAssemblyReference.cache
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.csproj.CopyComplete
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\Proyecto\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.dll.config
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.exe
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csc.rsp
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.exe
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\csi.rsp
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.AppContext.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Console.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.exe
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\vbc.rsp
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\Antlr3.Runtime.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\Newtonsoft.Json.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Helpers.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Mvc.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Optimization.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Razor.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\WebGrease.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Helpers.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Mvc.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Optimization.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.Razor.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\Newtonsoft.Json.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.csprojAssemblyReference.cache
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.csproj.CopyComplete
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2\PasteleriaMVC\obj\Debug\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\PasteleriaMVC.dll.config
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\PasteleriaMVC.pdb
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\csc.exe
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\csc.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\csc.rsp
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\csi.exe
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\csi.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\csi.rsp
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.AppContext.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Console.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\vbc.exe
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\vbc.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\vbc.rsp
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\Antlr3.Runtime.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\EntityFramework.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\Newtonsoft.Json.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.Helpers.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.Mvc.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.Optimization.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.Razor.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.WebPages.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\WebGrease.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\EntityFramework.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.Helpers.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.Mvc.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.Optimization.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.Razor.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.WebPages.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\Newtonsoft.Json.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\obj\Debug\PasteleriaMVC.csprojAssemblyReference.cache
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\obj\Debug\PasteleriaMVC.csproj.CopyComplete
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\obj\Debug\PasteleriaMVC.dll
+C:\Users\ItsKtyu\Desktop\Proyecto-\PasteleriaMVC-v2 Vistas\PasteleriaMVC\obj\Debug\PasteleriaMVC.pdb

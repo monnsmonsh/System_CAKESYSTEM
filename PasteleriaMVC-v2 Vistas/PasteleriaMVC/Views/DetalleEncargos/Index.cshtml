@@ -1,0 +1,45 @@
+﻿@model IEnumerable<PasteleriaMVC.Models.DetalleEncargos>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.cantidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Encargos.idEncargo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Productos.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.cantidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Encargos.idEncargo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Productos.nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idEncargo }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idEncargo }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idEncargo })
+        </td>
+    </tr>
+}
+
+</table>

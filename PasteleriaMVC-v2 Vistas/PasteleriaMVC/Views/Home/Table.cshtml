@@ -1,0 +1,57 @@
+﻿
+
+@{
+    ViewBag.Title = "Contact";
+}
+
+<!---->
+
+
+<!-- Agregamos en menu de nav-->
+@Html.Partial("_Navegation")<!--nav lateral -->
+<!-- PAGE CONTAINER-->
+<div class="main-content">
+    <div class="page-container">
+        @Html.Partial("_Header")<!--nav header(top) -->
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- DATA TABLE-->
+                        <div class="table-responsive m-b-40">
+                            <table class="table table-borderless table-data3">
+                                <thead>
+                                    <tr>
+                                        <th>date</th>
+                                        <th>type</th>
+                                        <th>description</th>
+                                        <th>status</th>
+                                        <th>price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2018-09-28 01:22</td>
+                                        <td>Mobile</td>
+                                        <td>Samsung S8 Black</td>
+                                        <td class="process">Processed</td>
+                                        <td>$756.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2018-09-27 02:12</td>
+                                        <td>Game</td>
+                                        <td>Game Console Controller</td>
+                                        <td class="denied">Denied</td>
+                                        <td>$22.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- END DATA TABLE-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---->

@@ -1,0 +1,182 @@
+﻿@model PasteleriaMVC.Models.DetalleEncargos
+
+
+
+
+
+@{
+    ViewBag.Title = "Pedidos";
+    ViewBag.PedidoA = "active";
+}
+
+
+
+
+
+
+<!-- Agregamos en menu de nav-->
+@Html.Partial("_Navegation")<!--nav lateral -->
+<!-- PAGE CONTAINER-->
+<div class="main-content">
+    <div class="page-container">
+        @Html.Partial("_Header")<!--nav header(top) -->
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+
+
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3 class="text-center title-2">Registrar Pedido</h3>
+                    </div>
+                    <hr>
+                    <!------------      ------------>
+                    @using (Html.BeginForm("Create", "Productos", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="control-label col-md-12">Producto</label>
+                                        <div class="col-md-12">
+                                            @Html.DropDownList("idProducto", null, htmlAttributes: new { @class = "form-control" })
+                                            @Html.ValidationMessageFor(model => model.idProducto, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="control-label col-md-12">Cantidad</label>
+                                        <div class="col-md-12">
+                                            @Html.EditorFor(model => model.cantidad, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.cantidad, "", new { @class = "text-danger" })
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <button type="button" class="btn btn-primary">Agregar</button>
+
+                            </div>
+                            <br>
+
+
+
+
+
+
+                            <div class="row">
+
+                                <div class="col-lg-12">
+                                    <!-- TOP CAMPAIGN-->
+                                    <div class="top-campaign">
+                                        <h3 class="title-3 m-b-30">Productos</h3>
+                                        <div class="table-responsive">
+                                            <table class="table table-top-campaign">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>5   Pastel Cafe Frio</td>
+                                                        <td>$1850</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2   Pastel de Crepa</td>
+                                                        <td>$360</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <!--  END TOP CAMPAIGN-->
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                        <label class="control-label col-md-12">Anticipo</label>
+                                        <div class="col-md-12">
+                                            @Html.EditorFor(model => model.cantidad, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.cantidad, "", new { @class = "text-danger" })
+
+
+
+                                        </div>
+                                    </div>
+
+                            <div class="row">
+                                <h4><span>Total:</span>$2210.00</h4>
+
+                            </div>
+                            <br>
+
+
+
+                            <div>
+                                <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
+                                    <i class="fa "></i>&nbsp;
+                                    <span id="payment-button-amount">Registrar pedido</span>
+                                    <span id="payment-button-sending" style="display:none;">Sending…</span>
+                                </button>
+                            </div>
+                        </div>
+                    }
+                    <!------------      ------------>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>DetalleEncargos</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.idProducto, "idProducto", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("idProducto", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.idProducto, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.cantidad, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.cantidad, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.cantidad, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

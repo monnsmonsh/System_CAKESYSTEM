@@ -1,0 +1,58 @@
+﻿@model PasteleriaMVC.Models.Encargos
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Encargos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.anticipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.anticipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaEncargo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaEncargo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaEntrega)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaEntrega)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Clientes.nombres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Clientes.nombres)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DetalleEncargos.idEncargo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DetalleEncargos.idEncargo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idEncargo }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,222 @@
+﻿@model IEnumerable<PasteleriaMVC.Models.Encargos>
+
+
+
+@{
+    ViewBag.Title = "Pedido";
+    ViewBag.PedidoA = "active";
+}
+
+
+
+
+<!-- modal large -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="largeModalLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-content">
+                    <!---->
+                    <div class="card-title">
+                        <h3 class="text-center title-2">Detalles la pedido</h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table-responsive table--no-card m-b-30">
+                                <table class="table table-borderless table-striped table-earning">
+                                    <thead>
+                                        <tr>
+                                            <th>Catidad</th>
+                                            <th>nombre del producto</th>
+                                            <th>total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>10</td>
+                                            <td>Pastel de Crepa</td>
+                                            <td>1800</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Pastel frutos rojos</td>
+                                            <td>900</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Pastel Cafe Frio</td>
+                                            <td>1850</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Total Venta:4550</h5>
+                    <h5>Anticipo: 1500</h5>
+                    <h5>Total: 3350</h5>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end modal large -->
+<!-- Agregamos en menu de nav-->
+@Html.Partial("_Navegation")<!--nav lateral -->
+<!-- PAGE CONTAINER-->
+<div class="main-content">
+    <div class="page-container">
+        @Html.Partial("_Header")<!--nav header(top) -->
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="overview-wrap">
+                            <h2 class="title-1">@ViewBag.Title</h2>
+                            <a href="~/Clientes/Create" class="au-btn au-btn-icon au-btn--blue"><i class="zmdi zmdi-plus"></i>Agregar Nuevo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- DATA TABLE-->
+                        <div class="table-responsive m-b-40">
+                            <table class="table table-borderless table-data3">
+                                <thead>
+                                    <tr>
+                                        <th>Fecha de pedido</th>
+                                        <th>Fecha de Entrega</th>
+                                        <th>Nombre del cliente</th>
+                                        <th>Anticipo</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.fechaEncargo)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.fechaEntrega)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Clientes.nombres)
+                                                @Html.DisplayFor(modelItem => item.Clientes.apellidoP)
+                                                @Html.DisplayFor(modelItem => item.Clientes.apellidoM)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.anticipo)
+                                            </td>
+
+                                            <td>
+
+                                                @*<a href="~/Clientes/Edit/@item.idCliente" class="btn btn-success btn-sm"><i class="fa fa-pencil-alt"></i></a>
+
+                                                    <button href="#myModal" class="btnDelete btn btn-danger btn-sm" data-toggle="modal" data-id="@item.idCliente">
+                                                        <i class="fa fa-trash-alt"></i>
+                                                    </button>*@
+                                                <button href="#myModal" class="btnDetails btn btn-primary btn-sm" data-toggle="modal" data-id="@item.idEncargo">
+                                                    <i class="zmdi zmdi-more"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- END DATA TABLE-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---->
+
+@section scripts{
+    <script src="~/Scripts/Ventas.js"></script>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.anticipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechaEncargo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechaEntrega)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Clientes.nombres)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DetalleEncargos.idEncargo)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.anticipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaEncargo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaEntrega)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clientes.nombres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DetalleEncargos.idEncargo)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.idEncargo }) |
+                @Html.ActionLink("Details", "Details", new { id = item.idEncargo }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.idEncargo })
+            </td>
+        </tr>
+    }
+
+</table>
