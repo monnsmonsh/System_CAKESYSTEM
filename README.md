@@ -9,7 +9,10 @@
 ## Tecnologias
 - C# - 
 - SQL -
+- Aplicacion web ASP.NET(.NET Framework)
+- .NET Framework 4.7.2
 
 ## Entornos
-- Visual studio 2019
-- SQLServer 2018 -
+- Visual Studio Community 2019 ver 16.6.5
+- Microsoft SQL Server Management Studio 18 v18.5.1
+
